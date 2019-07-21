@@ -64,7 +64,7 @@
              we should build it using lower version NetBeans to get it to be able installed both
              on lower and higher version, unless we use un-compatible features of higher version.
         -->
-        <netbeans.version>9.0</netbeans.version>
+        <netbeans.version>RELEASE90</netbeans.version>
 
         <scala.version>2.11.3-nbscala</scala.version> <!-- use nbscala patched scala runtime @see libs.local-->
         <sbt.version>0.13.1</sbt.version>
@@ -90,7 +90,8 @@
         <scala.stdplatform.version>1.8.2.0</scala.stdplatform.version>
         
         <nb.installation>/Applications/NetBeans/NetBeans 9.0.app/Contents/Resources/NetBeans</nb.installation>
-        <nb.nbmdirectory>${basedir}/nbms</nb.nbmdirectory>
+        <nb.nbmdirectory>${basedir}/nbms</nb.nbmdirectory> 
+        
     </properties>
 
     <repositories>
@@ -187,9 +188,9 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.0</version>
                     <configuration>
-                        <!-- NetBeans 7.2+ requires JDK 7 -->
-                        <source>1.6</source>
-                        <target>1.6</target>
+                        <!-- NetBeans 9+ requires JDK 8 -->
+                        <source>1.8</source>
+                        <target>1.8</target>
                     </configuration>
                 </plugin>
 
@@ -969,7 +970,7 @@
         <module>scala.sbt</module>
         <module>scala.sbt.project</module>
         <module>scala.stdplatform</module>
-        <module>scala.kit</module>
+        <!--module>scala.kit</module  --> <!-- build fails: under investigation -->
     </modules>
 
 </project>
