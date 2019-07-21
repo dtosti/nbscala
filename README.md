@@ -3,18 +3,18 @@ NetBeans Plugin for Scala
 
 ## Project Information
 This is a unofficial release of dcaoyan's [scala language](http://http://www.scala-lang.org/) plugin for the Netbeans Platform for the . In the case of a maven scala project, no local installation of scala is needed. It enables:
- * syntax checking,
- * syntax highlighting,
- * auto-completion,
- * pretty formatter,
- * occurrences mark,
- * brace matching, 
- * indentation, 
- * code folding, 
- * function navigator,
- * go to declaration,
- * project management, and a 
- * shell console.
+ * syntax checking
+ * syntax highlighting
+ * auto-completion
+ * pretty formatter
+ * occurrences mark
+ * brace matching
+ * indentation
+ * code folding
+ * function navigator
+ * go to declaration
+ * project management 
+ * shell console
 
 It's is specially useful if you are a maven user.
 
@@ -35,7 +35,7 @@ Unfortunately, the plugin is not currently available on [http://plugins.netbeans
 ### Manual Installation
 Make sure you don't have an old version installed: check your netbeans installation for a 'nbscala' directory: if it exists, just delete it.
 
-1. Build the latest releases.
+1. Build the latest release.
 2. Put all .nbm files from their target directory in a new directory 'nbscala' under your netbeans installation.
 3. Start Netbeans.
 4. Select Tools -> Plugins -> Downloaded -> Add Plugins...
