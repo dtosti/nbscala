@@ -35,7 +35,7 @@ Unfortunately, the plugin is not currently available on [http://plugins.netbeans
 ### Manual Installation
 Make sure you don't have an old version installed: check your netbeans installation for a 'nbscala' directory: if it exists, just delete it.
 
-1. Build the latest release.
+1. Build the latest release or download it from [https://github.com/dtosti/nbscala/releases](https://github.com/dtosti/nbscala/releases).
 2. Put all .nbm files from their target directory in a new directory 'nbscala' under your netbeans installation.
 3. Start Netbeans.
 4. Select Tools -> Plugins -> Downloaded -> Add Plugins...
@@ -63,7 +63,6 @@ Make sure you don't have an old version installed: check your netbeans installat
 
 ### Branches:
 * master -- tracking Scala 2.10.x and 2.11.x currently
-* 2.9.x  -- for Scala 2.9.x
 
 ### Set system environment variable for building.
 
