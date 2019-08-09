@@ -2,7 +2,7 @@ NetBeans Plugin for Scala
 =========================
 
 ## Project Information
-This is a unofficial release of dcaoyan's [scala language](http://http://www.scala-lang.org/) plugin for the Netbeans Platform for the . In the case of a maven scala project, no local installation of scala is needed. It enables:
+This is a unofficial release of dcaoyan's [scala language](http://http://www.scala-lang.org/) plugin for the Netbeans Platform. In the case of a maven scala project, no local installation of scala is needed. It enables:
  * syntax checking
  * syntax highlighting
  * auto-completion
